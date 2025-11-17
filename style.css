@@ -1,0 +1,30 @@
+.navigation-bar {
+    border: solid 1px red;
+    display: flex;
+    justify-content: end;
+    height: 10vh;
+
+}
+
+.main-body {
+    border: solid 1px blue;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 50px;
+    background-color: white;
+}
+
+button:hover {
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+.my-name {
+    margin-right: auto;
+    margin-left: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
