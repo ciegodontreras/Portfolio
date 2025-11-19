@@ -1,13 +1,7 @@
 .navigation-bar {
-    border: solid 1px red;
     display: flex;
     justify-content: end;
     height: 10vh;
-
-}
-
-.main-body {
-    border: solid 1px blue;
 }
 
 button {
@@ -20,11 +14,88 @@ button {
 
 button:hover {
     text-decoration: underline;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700; 
 }
 
 .my-name {
     margin-right: auto;
-    margin-left: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+.about-me {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture {
+    height: 30vh;
+    margin-right: auto;
+    margin-left: 10%;
+}
+
+.bio {
+    margin-right: 15%;
+    height: 20px; 
+    width: 20vw;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.html, .css, .js {
+    text-align: center;
+}
+
+.html-logo, .css-logo, .js-logo {
+    margin-top: 10px;
+    height: 3em;
+}
+
+.project-one, .project-two, .project-three {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.recommendation-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.bubble {
+    text-align: center;
+    height: 100px;
+    width: 350px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.recommendation-submit {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommendation-name, .recommendation-input {
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.recommendation-input {
+    height: 100px;
+    resize: none;
+}
+
+.recommendation-button {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
