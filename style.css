@@ -68,6 +68,7 @@ h1 {
 .recommendation-boxes {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 
@@ -77,6 +78,7 @@ h1 {
     width: 350px;
     border: solid 1px black;
     border-radius: 10px;
+    padding-top: 15px;
 }
 
 .recommendation-submit {
@@ -98,4 +100,12 @@ h1 {
 .recommendation-button {
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.home-btn {
+    margin-left: 85%;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightblue;
 }
